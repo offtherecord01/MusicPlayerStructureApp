@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="primary_color">#182387</color>
+
+    <color name="primary_dark_color">#0E165A</color>
+
+    <color name="background">#2897BE</color>
+
+    <color name="all_music">#2853BE</color>
+
+    <color name="artist_list">#286CBE</color>
+
+    <color name="album_list">#2887BE</color>
+
+</resources>
