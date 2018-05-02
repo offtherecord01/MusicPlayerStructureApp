@@ -1,7 +1,9 @@
 package com.example.android.musicplayer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -25,5 +27,13 @@ public class AlbumList extends AppCompatActivity {
         ListView listView = findViewById(R.id.list);
 
         listView.setAdapter(adapter);
+
+        listView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(AlbumList.this, ArtistList.class);
+                startActivity(i);
+            }
+        });
     }
 }
