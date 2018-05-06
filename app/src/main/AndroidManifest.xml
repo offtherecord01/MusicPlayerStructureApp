@@ -18,13 +18,16 @@
         </activity>
         <activity
             android:name=".TrackList"
-            android:label="@string/all_music" />
+            android:label="@string/all_music"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ArtistList"
-            android:label="@string/artist_list" />
+            android:label="@string/artist_list"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AlbumList"
-            android:label="@string/album_list" />
+            android:label="@string/album_list"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
