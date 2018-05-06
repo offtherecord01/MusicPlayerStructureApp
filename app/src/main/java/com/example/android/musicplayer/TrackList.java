@@ -16,7 +16,7 @@ public class TrackList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_view);
 
-        ArrayList<TrackInfo> tracks = new ArrayList<>();
+        final ArrayList<TrackInfo> tracks = new ArrayList<>();
 
         tracks.add(new TrackInfo("The Greatest Show", "Motion Picture Cast Recording", "The Greatest Showman"));
         tracks.add(new TrackInfo("A Million Dreams", "Motion Picture Cast Recording", "The Greatest Showman"));
@@ -57,7 +57,7 @@ public class TrackList extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i = new Intent(TrackList.this, NowPlaying.class);
-                i.putExtra("track", )
+                i.putExtra("track", tracks.get(position));
                 startActivity(i);
             }
         });
