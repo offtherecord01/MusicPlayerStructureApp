@@ -28,6 +28,10 @@
             android:name=".AlbumList"
             android:label="@string/album_list"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NowPlaying"
+            android:label="@string/now_playing"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
