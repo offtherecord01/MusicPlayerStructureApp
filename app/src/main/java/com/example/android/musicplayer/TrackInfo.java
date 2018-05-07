@@ -59,4 +59,5 @@ public class TrackInfo implements Parcelable {
         parcel.writeString(mArtistName);
         parcel.writeString(mAlbumName);
     }
+
 }
