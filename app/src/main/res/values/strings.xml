@@ -10,4 +10,10 @@
 
     <string name="now_playing">Now Playing</string>
 
+    <string-array name="album_name">
+        <item>The Greatest Showman</item>
+        <item>Staying At Tamara's</item>
+        <item>My Dear Melancholy</item>
+    </string-array>
+
 </resources>
