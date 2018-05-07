@@ -7,7 +7,7 @@ public class AlbumInfo {
     private String mAlbumName;
 
 
-    public AlbumInfo(String artistName, int albumName) {
+    public AlbumInfo(String artistName, String albumName) {
         mArtistName = artistName;
         mAlbumName = albumName;
 }

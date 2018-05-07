@@ -18,9 +18,9 @@ public class AlbumList extends AppCompatActivity {
 
         ArrayList<AlbumInfo> albums = new ArrayList<>();
 
-        albums.add(new AlbumInfo("Motion Picture Cast Recording", R.string.tgs));
-        albums.add(new AlbumInfo("George Ezra", R.string.sat));
-        albums.add(new AlbumInfo("The Weekend", R.string.mdm));
+        albums.add(new AlbumInfo(getString(R.string.mpcr), getString(R.string.tgs)));
+        albums.add(new AlbumInfo(getString(R.string.ge), getString(R.string.sat)));
+        albums.add(new AlbumInfo(getString(R.string.tw), getString(R.string.mdm)));
 
         AlbumAdapter adapter =
                 new AlbumAdapter(this, albums);

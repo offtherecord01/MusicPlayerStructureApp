@@ -15,9 +15,9 @@ public class ArtistList extends AppCompatActivity {
 
         ArrayList<ArtistInfo> artists = new ArrayList<>();
 
-        artists.add(new ArtistInfo("Motion Picture Cast Recording"));
-        artists.add(new ArtistInfo("George Ezra"));
-        artists.add(new ArtistInfo("The Weekend"));
+        artists.add(new ArtistInfo(getString(R.string.mpcr)));
+        artists.add(new ArtistInfo(getString(R.string.ge)));
+        artists.add(new ArtistInfo(getString(R.string.tw)));
 
 
         ArtistAdapter adapter =
