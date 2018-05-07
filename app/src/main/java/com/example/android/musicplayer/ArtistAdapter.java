@@ -8,9 +8,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ArtistAdapter extends ArrayAdapter<AlbumInfo> {
+public class ArtistAdapter extends ArrayAdapter<ArtistInfo> {
 
-    public ArtistAdapter(Activity context, ArrayList<AlbumInfo> tracks) {
+    public ArtistAdapter(Activity context, ArrayList<ArtistInfo> tracks) {
         super(context, 0, tracks);
     }
     @Override
@@ -20,10 +20,7 @@ public class ArtistAdapter extends ArrayAdapter<AlbumInfo> {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.artist_list_item, parent, false);
         }
-        AlbumInfo currentTrack= getItem(position);
-
-        TextView artistTextView = listItemView.findViewById(R.id.album);
-        artistTextView.setText(currentTrack.getAlbumName());
+        ArtistInfo currentTrack = getItem(position);
 
         TextView albumTextView = listItemView.findViewById(R.id.artist);
 

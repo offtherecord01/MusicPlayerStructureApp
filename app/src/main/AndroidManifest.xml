@@ -30,8 +30,7 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".NowPlaying"
-            android:label="@string/now_playing"
-            android:parentActivityName=".MainActivity" />
+            android:label="@string/now_playing" />
     </application>
 
 </manifest>

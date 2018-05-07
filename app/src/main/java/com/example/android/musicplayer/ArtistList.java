@@ -13,11 +13,11 @@ public class ArtistList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_view);
 
-        ArrayList<AlbumInfo> artists = new ArrayList<>();
+        ArrayList<ArtistInfo> artists = new ArrayList<>();
 
-        artists.add(new AlbumInfo("Motion Picture Cast Recording", "The Greatest Showman"));
-        artists.add(new AlbumInfo("George Ezra", "Staying At Tamara's"));
-        artists.add(new AlbumInfo("The Weekend", "My Dear Melancholy"));
+        artists.add(new ArtistInfo("Motion Picture Cast Recording"));
+        artists.add(new ArtistInfo("George Ezra"));
+        artists.add(new ArtistInfo("The Weekend"));
 
 
         ArtistAdapter adapter =
