@@ -10,16 +10,10 @@
 
     <string name="now_playing">Now Playing</string>
 
-    <string-array name="album_name">
-        <item>The Greatest Showman</item>
-        <item>Staying At Tamara's</item>
-        <item>My Dear Melancholy</item>
-    </string-array>
+    <string name="tgs">The Greatest Showman</string>
 
-    <string-array name="artist_name">
-        <item>Motion Picture Cast Recording</item>
-        <item>George Ezra</item>
-        <item>The Weekend</item>
-    </string-array>
+    <string name="sat">Staying At Tamara\'s</string>
+
+    <string name="mdm">My Dear Melancholy</string>
 
 </resources>
