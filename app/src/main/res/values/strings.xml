@@ -16,4 +16,10 @@
         <item>My Dear Melancholy</item>
     </string-array>
 
+    <string-array name="artist_name">
+        <item>Motion Picture Cast Recording</item>
+        <item>George Ezra</item>
+        <item>The Weekend</item>
+    </string-array>
+
 </resources>
